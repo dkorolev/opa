@@ -306,7 +306,7 @@ type MakeNumberIntStmt struct {
 
 // MakeNumberRefStmt constructs a local variable that refers to a number stored as a string.
 type MakeNumberRefStmt struct {
-	Index  int
+	Index  int `json:"index"`
 	Target Local `json:"target"`
 
 	Location
